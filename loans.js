@@ -15,9 +15,7 @@ class Loans extends React.Component{
 
     }
 
-    updateROI(){
-        
-    }
+
         render() {
         console.log('in loans ')
         return (
@@ -28,7 +26,7 @@ class Loans extends React.Component{
                 <form>
                   <input type='number' placeholder="Enter Loan amount" /><br />
                   <input type="number" placeholder=" Enter no of year" /><br />
-                    Loan Type:<select onchange= {updateROI(this)}>
+                    Loan Type:<select>
                          <option value="homeLoan">Home Loan</option>
                          <option value="personalLoan">Personal Loan</option>
                          <option value="carLoan">car Loan</option>
